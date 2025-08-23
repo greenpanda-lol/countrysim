@@ -1,0 +1,53 @@
+body {
+    background-color:lightgreen;
+}
+
+h1 {
+    text-align: center;
+    font-family: Andale Mono, monospace;
+    color: black;
+}
+
+p {
+    font-family: sans-serif;
+    color:black
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: #1e53b4;
+  overflow: hidden;
+  border-radius: 12px;   /* lekerekíti a navbar sarkait */
+  margin: 10px;          /* egy kis térköz, hogy a lekerekítés látszódjon */
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+  border-radius: 8px;    /* a linkek háttere is kapjon lekerekítést */
+  transition: 0.3s;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #2d6805;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
