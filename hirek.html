@@ -11,6 +11,7 @@
         <a href="index.html">Home</a>
         <a href="szabalyzat.html">Szabályzat</a>
         <a class="active" href="hirek.html">Hírek</a>
+        <a href="orszagok.html">Országok</a>
     </div>
 
     <h1>The Age of War >> Hírek</h1>
@@ -26,7 +27,7 @@ fetch('hirek.json')
 
     hirek.forEach(hir => {
       out += `
-        <div class="hirekbox">
+        <div class="box">
           <h2>${hir.title}</h2>
           <p class="meta">
             <i><strong>@${hir.author}</i></strong> | 
