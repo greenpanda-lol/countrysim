@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Age of Wars >> Hírek </title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="szabalyzat.html">Szabályzat</a>
+        <a class="active" href="hirek.html">Hírek</a>
+    </div>
+
+    <h1>The Age of Wars >> Hírek</h1>
+
+    <div id="blog"></div>
+
+<script>
+fetch('hirek.json')
+  .then(response => response.json())
+  .then(hirek => {
+    let out = '';
+    hirek.reverse(); // legfrissebb felül
+
+    hirek.forEach(hir => {
+      out += `
+        <div class="hir">
+          <h2>${hir.title}</h2>
+          <p class="meta">Írta: <strong>${hir.author}</strong> | ${hir.date}</p>
+          <p>${hir.body}</p>
+        </div>
+      `;
+    });
+
+    document.getElementById('blog').innerHTML = out;
+  })
+  .catch(err => console.error("Hiba történt a hírek betöltésekor:", err));
+</script>
+</body>
+</html>
