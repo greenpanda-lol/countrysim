@@ -4,5 +4,12 @@
         "author": "greenpanda",
         "date": "25. 08. 24.",
         "body": "Sziasztok! Ez még egy teszt hír, de az összes többi hír is így fog látszódni."
+    },
+
+    {
+        "title": "Teszt hír 2",
+        "author": "admin",
+        "date": "25. 08. 24.",
+        "body": "lorem ipsum bla bla bla"
     }
 ]
