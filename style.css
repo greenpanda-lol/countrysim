@@ -1,5 +1,5 @@
 body {
-    background-color:lightgreen;
+    background-color: lightblue;
 }
 
 h1 {
@@ -15,7 +15,7 @@ p {
 
 /* Add a black background color to the top navigation */
 .navbar {
-  background-color: #1e53b4;
+  background-color: lightskyblue;
   overflow: hidden;
   border-radius: 12px;   /* lekerekíti a navbar sarkait */
   margin: 10px;          /* egy kis térköz, hogy a lekerekítés látszódjon */
@@ -42,7 +42,7 @@ p {
 
 /* Add a color to the active/current link */
 .navbar a.active {
-  background-color: #2d6805;
+  background-color: blue;
   color: white;
 }
 
