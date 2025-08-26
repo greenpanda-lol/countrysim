@@ -13,6 +13,11 @@ h2 {
     color: black;;
 }
 
+h3 {
+  font-family: Andale Mono, monospace;
+  color: black;;
+}
+
 p {
     font-family: sans-serif;
     color:black;
@@ -32,6 +37,15 @@ button {
   font-size: 20px;
 
   border-radius: 10px;
+}
+
+form {
+  font-family: sans-serif;
+}
+
+input {
+  border-radius: 10px;
+  border-color: darkblue;
 }
 
 .doksibutton {
@@ -181,4 +195,8 @@ img {
   .orszagkepek {
     max-width: 100%;        /* teljes szélesség */
   }
+}
+
+.textcenter {
+  text-align: center;
 }
