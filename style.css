@@ -170,3 +170,15 @@ img {
   flex: 0 1 auto;
 }
 
+/* chatgpt mobilfix */
+@media (max-width: 768px) {
+  .orszagadatok_all {
+    flex-direction: column; /* egymás alá kerülnek */
+    padding: 20px;          /* kisebb padding a mobilon */
+  }
+
+  .box_flex,
+  .orszagkepek {
+    max-width: 100%;        /* teljes szélesség */
+  }
+}
