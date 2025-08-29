@@ -206,3 +206,20 @@ img {
   color:black;
   margin: 30px;
 }
+
+.wpbox {
+  white-space: pre-line;
+
+  border: 2px solid #333;
+  padding: 20px;
+  width: 700px;
+  max-width: 100%;
+
+  border-radius: 20px;
+  background-color: lightskyblue;
+  box-shadow: 5px 10px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
