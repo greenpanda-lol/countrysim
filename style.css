@@ -200,3 +200,9 @@ img {
 .textcenter {
   text-align: center;
 }
+
+.marginextra {
+  font-family: sans-serif;
+  color:black;
+  margin: 50px;
+}
