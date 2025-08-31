@@ -48,6 +48,19 @@ input {
   border-color: darkblue;
 }
 
+table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
 .doksibutton {
   width: auto;
   height: auto;
