@@ -7,9 +7,9 @@ A **The Age of War** játékot egy kis privát közösség játsza. A játék te
 ## To-Do
 
 - [x] Minden korábbi dolog
-- [ ] A térkép
-- [ ] A szabályzat leírása (@tothfsp még nincs kész a szabályzattal)
-- [ ] Az árak leírása (@tothfsp még nincs kész a szabályzattal)
+- [x] A térkép
+- [x] A szabályzat leírása (@tothfsp még nincs kész a szabályzattal)
+- [x] Az árak leírása (@tothfsp még nincs kész a szabályzattal)
 
 ## Notes
 
